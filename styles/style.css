@@ -79,9 +79,10 @@ ol {
 }
 
 .result__video-container {
-  width: 711px;
+  width: 914px;
   height: 100%;
   padding-bottom: 16px;
+  position: relative;
 }
 
 .result__video {
@@ -92,6 +93,8 @@ ol {
 
 .content__list-item:not(:last-child ) {
   padding-bottom: 30px;
+  position: relative;
+  z-index: -1;
 }
 
 .content__video-card {
