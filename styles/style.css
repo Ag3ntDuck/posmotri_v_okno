@@ -11,7 +11,7 @@ html {
 .page {
   inline-size: 1200px;
   block-size: 800px;
-  padding: 133px 30px;
+  padding: 170px 30px;
   justify-content: center;
   align-items: center;
   margin: auto;
@@ -79,7 +79,7 @@ ol {
 }
 
 .result__video-container {
-  width: 914px;
+  width: 711px;
   height: 100%;
   padding-bottom: 16px;
   position: relative;
