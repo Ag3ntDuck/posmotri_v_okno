@@ -117,7 +117,7 @@ ol {
 }
 
 .search-form__fieldset-title {
-  font-family: Fira Sans Condensed;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -162,7 +162,7 @@ ol {
 .content__video-card:hover {
   cursor: pointer;
   color: #FFF;
-  font-family: Fira Sans Condensed;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -196,7 +196,7 @@ ol {
 
 .content__video-card-description {
   color: #FFF;
-  font-family: Fira Sans Condensed;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -222,6 +222,7 @@ ol {
 .search-form__label {
   display: inline-block;
   margin-right: 10px;
+  cursor: pointer;
 }
 
 .button {
@@ -240,7 +241,7 @@ ol {
   align-items: center;
   gap: 10px;
   color: rgba(255, 255, 255, 0.70);
-  font-family: Fira Sans Condensed;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -260,7 +261,9 @@ ol {
 
 
 .search-form__checkbox-list {
-  display: inline;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: relative;
 }
 
 .search-form__pseudo-checkbox {
@@ -279,7 +282,7 @@ ol {
 .search-form__submit-button  {
   color: #FFF;
   text-align: center;
-  font-family: Fira Sans Condensed;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -299,7 +302,7 @@ ol {
 .more-button {
   color: #FFF;
   text-align: center;
-  font-family: Fira Sans Condensed;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -328,12 +331,10 @@ ol {
 
 .search-form__checkbox[type='checkbox']:checked + .search-form__pseudo-checkbox::after {
   background: white;
-  position: absolute;
-  top: 1px;
-  bottom: 1px;
-  left: 1px;
-  right: 1px;
-  content: " ";
+  display: grid;
+  height: 89%;
+  margin: 1px;
+  content: "\00a0";
   } /* чекед квадрат */
 
 
