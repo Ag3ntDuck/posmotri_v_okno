@@ -262,11 +262,6 @@ ol {
   outline-offset: 1px;
  }
 
- .search-form__label:has(:focus-visible) {
-  /* без единого понятия как сделать :С */
- }
-
-
 
 .search-form__checkbox[type='checkbox']:checked + .search-form__pseudo-checkbox {
   background: transparent;
